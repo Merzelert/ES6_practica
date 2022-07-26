@@ -15,3 +15,13 @@ Esta es otra frase epica V2`;
 
 console.log(frase2);
 
+let persona = {
+    nombre : "Erik",
+    edad : 35,
+    pais: "MX"
+}
+
+console.log(persona.nombre, persona.pais)
+
+let {nombre, edad} = persona;
+console.log(nombre, edad)
