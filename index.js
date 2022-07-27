@@ -35,6 +35,9 @@ let champions = [...madrid, ...manutd, "ball"]
 console.log(champions);
 
 
+const suma = (num1, num2) => num1 + num2
+console.log(suma(1,2));
+
 //ES7
 
 let numeros = [1,2,3,4,5,6,7];
