@@ -25,3 +25,11 @@ console.log(persona.nombre, persona.pais)
 
 let {nombre, edad} = persona;
 console.log(nombre, edad)
+
+
+let madrid = ["Iker", "Zidane", "R Carlos"]
+let manutd = ["David", "Veron", "Ruud V"]
+
+let champions = [...madrid, ...manutd, "ball"]
+
+console.log(champions);
