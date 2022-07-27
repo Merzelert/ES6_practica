@@ -78,3 +78,12 @@ console.log(hello);
 console.log(hello.trimStart());
 
 
+//ES2021
+
+let cadena = "Final Fantasy el mundo ha cambiado desde el lanzamiento de Final Fantasy 14"
+let reemplazandoCadena = cadena.replace("Final", "Destiny");
+console.log(reemplazandoCadena);
+
+let reemplazandoCadena2 = cadena.replaceAll("Final", "Destiny");
+console.log(reemplazandoCadena2);
+
