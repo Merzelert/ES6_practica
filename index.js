@@ -71,5 +71,10 @@ console.log(team1.length);
 
 let numbers = [1,2,3,4,5,6,7,8];
 
-console.log(numbers.flatMap(numbers => [numbers, numbers * 3]));
+console.log(numbers.flatMap(numbers => [numbers * 3]));
+
+let hello = "          hola!"
+console.log(hello);
+console.log(hello.trimStart());
+
 
