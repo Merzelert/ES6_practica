@@ -33,3 +33,20 @@ let manutd = ["David", "Veron", "Ruud V"]
 let champions = [...madrid, ...manutd, "ball"]
 
 console.log(champions);
+
+
+//ES7
+
+let numeros = [1,2,3,4,5,6,7];
+
+if (numeros.includes(9)){
+    console.log("Si existe el numero")
+}else {
+    console.log("No existe el numero")
+}
+
+
+let base = 9;
+let exp = 2;
+let result = base ** exp;
+console.log(result);
