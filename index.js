@@ -65,3 +65,11 @@ const staticFF = {
 const team1 = Object.entries(staticFF);
 console.log(team1);
 console.log(team1.length);
+
+
+//ES10
+
+let numbers = [1,2,3,4,5,6,7,8];
+
+console.log(numbers.flatMap(numbers => [numbers, numbers * 3]));
+
