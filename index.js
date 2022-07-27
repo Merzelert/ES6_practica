@@ -50,3 +50,18 @@ let base = 9;
 let exp = 2;
 let result = base ** exp;
 console.log(result);
+
+//ES8
+
+const staticFF = {
+    dpsMelee: "Rudra",
+    dpsMagic: "Merz",
+    mainHealer: "Cami",
+    offHealer: "Lotus",
+    mainTank: "Abel",
+    offTank: "Milan"
+}
+
+const team1 = Object.entries(staticFF);
+console.log(team1);
+console.log(team1.length);
