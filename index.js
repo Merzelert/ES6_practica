@@ -6,7 +6,7 @@ let saludo = `${hola} ${mundo}`;
 console.log(saludo);
 
 let frase = "Esta es una frase epica \n"
-+ "otra frase epica";
+    + "otra frase epica";
 
 console.log(frase);
 
@@ -16,14 +16,14 @@ Esta es otra frase epica V2`;
 console.log(frase2);
 
 let persona = {
-    nombre : "Erik",
-    edad : 35,
+    nombre: "Erik",
+    edad: 35,
     pais: "MX"
 }
 
 console.log(persona.nombre, persona.pais)
 
-let {nombre, edad} = persona;
+let { nombre, edad } = persona;
 console.log(nombre, edad)
 
 
@@ -36,15 +36,15 @@ console.log(champions);
 
 
 const suma = (num1, num2) => num1 + num2
-console.log(suma(1,2));
+console.log(suma(1, 2));
 
 //ES7
 
-let numeros = [1,2,3,4,5,6,7];
+let numeros = [1, 2, 3, 4, 5, 6, 7];
 
-if (numeros.includes(9)){
+if (numeros.includes(9)) {
     console.log("Si existe el numero")
-}else {
+} else {
     console.log("No existe el numero")
 }
 
@@ -72,7 +72,7 @@ console.log(team1.length);
 
 //ES10
 
-let numbers = [1,2,3,4,5,6,7,8];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 console.log(numbers.flatMap(numbers => [numbers * 3]));
 
